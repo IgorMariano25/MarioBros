@@ -7,6 +7,7 @@ import { BackgroundVideoComponent } from './Componentes/BackgroundVideo/backgrou
 import { ButtonComponent } from './Componentes/Button/button.component';
 import { HeaderComponent } from './Componentes/header/header.component';
 import { FooterComponent } from './Componentes/footer/footer.component';
+import { MainComponent } from './Componentes/main/main.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FooterComponent } from './Componentes/footer/footer.component';
     BackgroundVideoComponent,
     ButtonComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

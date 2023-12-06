@@ -1,0 +1,59 @@
+.container__main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 48px;
+  margin: 0 auto;
+}
+
+.main__info img {
+  width: 15rem;
+}
+
+.main__info {
+  width: 100%;
+  max-width: 35.625rem;
+}
+
+.main__info p {
+  font-size: 1.125rem;
+  margin: 1.25rem 0 1.75rem;
+  text-align: start;
+}
+
+.main__info div {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.main__info button {
+  width: 100%;
+  padding: 0.625rem 0.625rem 0.625rem 0rem;
+  border-radius: 0.063rem;
+  transform: skew(-10deg);
+
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.125rem;
+}
+
+.main__info #button__movie__trailer {
+  background-color: var(--red);
+  border: none;
+}
+
+.main__info #button__buy__ticket {
+  background: transparent;
+  border: 2px solid var(--green);
+}
+
+#mario__luigi {
+  margin-left: auto;
+  height: 40rem;
+}

@@ -23,7 +23,7 @@
   max-width: 1440px;
 }
 
-#cap-mario {
+.cap-mario {
   width: 4.375rem;
   height: auto;
 }
@@ -95,4 +95,9 @@
 .navigation__social svg:hover path,
 .navigation__social svg:hover circle {
   fill: var(--red);
+}
+
+
+/* Responsividade Mobile */
+@media screen and (max-width: 450px) {
 }

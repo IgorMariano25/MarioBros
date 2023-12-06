@@ -29,7 +29,8 @@
   column-gap: 2rem;
 }
 
-.main__info button {
+.main__info button,
+.main__info a {
   width: 100%;
   padding: 0.625rem 0.625rem 0.625rem 0rem;
   border-radius: 0.063rem;

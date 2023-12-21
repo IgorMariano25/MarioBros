@@ -16,7 +16,9 @@
   --neon-yellow: #e2aa26;
 }
 
-body, button, a {
+body,
+button,
+a {
   color: var(--text);
   font: 400 1rem "Mukta", sans-serif;
 }

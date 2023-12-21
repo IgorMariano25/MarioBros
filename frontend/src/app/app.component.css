@@ -49,12 +49,72 @@
   border: none;
 }
 
+.main__info #button__movie__trailer:hover {
+  background-color: var(--red);
+  box-shadow: 0 0 8px var(--neon-red), 0 0 8px var(--neon-red), 0 0 8px var(--neon-red);
+}
+
 .main__info #button__buy__ticket {
   background: transparent;
   border: 2px solid var(--green);
 }
 
+.main__info #button__buy__ticket:hover {
+  box-shadow: 0 0 4px var(--neon-green), 0 0 4px var(--neon-green), 0 0 4px var(--neon-green);
+}
+
 #mario__luigi {
   margin-left: auto;
   height: 40rem;
+}
+
+@media (max-width: 425px) {
+  .container__main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main__info {
+    text-align: center;
+  }
+
+  .main__info img {
+    width: 12rem;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .main__info p {
+    font-size: 1rem;
+    margin: 0.8rem 0 1.25rem;
+    text-align: start;
+  }
+
+  .main__info button,
+  .main__info a {
+    display: inline-block;
+    width: 45%;
+    max-width: 100%;
+    padding: 0.3rem 0.3rem 0.3rem;
+    border-radius: 0.063rem;
+    transform: skew(-10deg);
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+  }
+
+  #mario__luigi {
+    margin: 0 auto;
+    padding-top: 2rem;
+    height: 25rem;
+    max-width: 100%;
+  }
 }
